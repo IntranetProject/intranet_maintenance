@@ -17,12 +17,23 @@ session_start();
         <div class="container">
             <div class="subcontainer">
                 <?php
-                if ($_GET['site']) {
+                if (isset($_GET['site'])) {
                     $site = ucfirst($_GET['site']);
                     echo '<p>' . $site . " is temporarily down for maintenance. We should be back online shortly!</p>";
+                } else {
+                    echo '<p>Temporarily down for maintenance! We should be back online shortly!';
                 }
                 ?>
-                <p><br><br> Stay calm and drink something. </p><br><br><p class="contact">Contact: <a href="mailto:support@intranetproject.net">support@intranetproject.net</a></p>
+                <p><br><br> <?php
+                    $a = array(
+                        "Stay calm and drink something.",
+                        "Grab yourself a bag of chips!",
+                        "Donate us some money.");
+
+                    $random_keys = array_rand($a);
+                    echo $a[$random_keys];
+                    ?>
+                    </p><br><br><p class="contact">Contact: <a href="mailto:support@intranetproject.net">support@intranetproject.net</a></p>
             </div>
         </div>
 </body>
