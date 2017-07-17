@@ -29,13 +29,13 @@ body {
     border-radius: 10px;
 }
 
-p {
+.subcontainer p {
     font-size: 2em !important;
     padding: 50px !important;
     line-height: 150% !important;
 }
 
-a {
+.subcontainer a {
     color: white;
 }
 
@@ -49,6 +49,7 @@ a {
     color: white;
     height: 5%;
     background-color: #2D3438;
+    margin-top: 15.5%;
 }
 
 .git,
