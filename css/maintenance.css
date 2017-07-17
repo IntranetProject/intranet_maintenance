@@ -42,3 +42,22 @@ a {
 .contact {
     font-size: 1em !important;
 }
+
+.footer {
+    width: 100%;
+    font-size: 150%;
+    color: white;
+    height: 5%;
+    background-color: #2D3438;
+}
+
+.git,
+.imp,
+.credit {
+    width: calc(100%/3);
+    float: left;
+    text-align: center;
+    background-color: #2D3438;
+    margin-top: 0.5%;
+    font-family: 'Crimson Text', serif;
+}
