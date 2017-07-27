@@ -4,23 +4,20 @@ body {
     font-family: 'Roboto', sans-serif !important;
     height: 100%;
     width: 100%;
-    margin: 0;
-    overflow-y: hidden;
     color: white !important;
+    background-color: #4E5C63;
 }
 
 .container {
-    height: 90%;
+    height: auto;
     width: 100%;
-    background-color: #4E5C63;
-    padding-top: 10%;
-    margin: 0;
+    padding-top: 7%;
 }
 
 .subcontainer {
     text-align: center;
     width: 40% !important;
-    height: 50%;
+    height: auto;
     margin-left: 30%;
     background-color: #2D3438;
     padding-left: 3px;
@@ -35,10 +32,6 @@ body {
     line-height: 150% !important;
 }
 
-.subcontainer a {
-    color: white;
-}
-
 .contact {
     font-size: 1em !important;
 }
@@ -49,7 +42,12 @@ body {
     color: white;
     height: 5%;
     background-color: #2D3438;
-    margin-top: 15.5%;
+    bottom: 0;
+     bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    position: fixed;
 }
 
 .git,
@@ -61,4 +59,7 @@ body {
     background-color: #2D3438;
     margin-top: 0.5%;
     font-family: 'Crimson Text', serif;
+}
+a {
+    color: white;
 }

@@ -9,7 +9,7 @@ session_start();
     <title></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="css/maintenance.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
     <link type="text/css" rel="stylesheet" href="css/reset.css">
 </head>
 
@@ -24,7 +24,7 @@ session_start();
                     echo '<p>Temporarily down for maintenance! We should be back online shortly!';
                 }
                 ?>
-                <p><br><br>
+                <p><br>
                     <?php
                     $a = array(
                         "Stay calm and drink something.",
@@ -34,7 +34,7 @@ session_start();
                     $random_keys = array_rand($a);
                     echo $a[$random_keys];
                     ?>
-                </p><br><br>
+                </p><br>
                 <p class="contact">Contact: <a href="mailto:support@intranetproject.net">support@intranetproject.net</a></p>
         </div>
         <div class="footer">
@@ -45,7 +45,7 @@ session_start();
                 <p><a href="imprint.html">Impressum</a></p>
             </div>
             <div class="credit">
-                <p><b><i style="color: black;">&lt; &gt;</i></b> with <i style="color: red;">&hearts;</i> by <a href="https://github.com/IntranetProject">Intranet</a></p>
+                <p><b><i style="color: white;">&lt; &gt;</i></b> with <i style="color: red;">&hearts;</i> by <a href="https://github.com/IntranetProject">Intranet</a></p>
             </div>
         </div>
     </div>
