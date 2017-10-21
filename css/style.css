@@ -1,4 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+.header {
+  margin-top: 25%;
+}
+
+
+
+
+
+
+
+/*@import url('https://fonts.googleapis.com/css?family=Roboto');
 html,
 body {
     font-family: 'Roboto', sans-serif !important;
@@ -86,4 +105,4 @@ a {
     margin-top: 0.5%;
     font-family: 'Crimson Text', serif;
 }
-}
+}*/
