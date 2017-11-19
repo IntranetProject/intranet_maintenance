@@ -29,10 +29,9 @@ session_start();
                 } else {
                     echo '<h4>Temporarily down for maintenance! We should be back online shortly!';
                 }
-                ?>
-                </h4>
+                ?></h4>                
                 <p class="contact">Contact: <a href="mailto:support@intranetproject.net">support@intranetproject.net</a></p>
-            </div>
+                <img src="https://i.imgur.com/WesZdDe.gif"></img>
         </div>
     </main>
     <footer class="page-footer teal lighten-2">
