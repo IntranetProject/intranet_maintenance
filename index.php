@@ -40,6 +40,9 @@ session_start();
                 <div class="col l6 s12">
                     <h5 class="white-text">Questions?</h5>
                     <p class="grey-text text-lighten-4">Contact: <a href="mailto:support@intranetproject.net" style="color:white; text-decoration:underline;">support@intranetproject.net</a></p>
+                    <ul style="text-decoration:underline">
+                        <li><a href="http://intranetproject.net" class="white-text">Main Page</a></li>
+                    </ul>
                 </div>
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Links</h5>
