@@ -45,8 +45,7 @@ session_start();
                     <h5 class="white-text">Links</h5>
                     <ul>
                         <li><a class="grey-text text-lighten-3" href="https://github.com/IntranetProject">GitHub</a></li>
-                        <li><a class="grey-text text-lighten-3" href="html/imprint.html">Imprint</a></li>
-                        <li><a class="grey-text text-lighten-3" href="html/tos.html">Terms and Conditions</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://intranetproject.net/imprint.html">Imprint</a></li>
                         <li>
                             <p class="grey-text text-lighten-3" href="#!"><b>&lt; &gt;</b> with <i style="color: red;">&hearts;</i> by <a class="grey-text text-lighten-3" href="https://github.com/IntranetProject">Intranet</a></p>
                         </li>
