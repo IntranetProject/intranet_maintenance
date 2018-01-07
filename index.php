@@ -15,6 +15,11 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <meta property="og:title" content="Maintenance" />
+    <meta property="og:image" content="https://intranetproject.net/logo.png" />
+    <meta property="og:url" content="https://maintenance.intranetproject.net" />
+    <meta property="og:description" content="Intranetproject's maintenance page" />
+    <meta property="og:site_name" content="Maintenance" />
 </head>
 
 <body>
@@ -29,9 +34,11 @@ session_start();
                 } else {
                     echo '<h4>Temporarily down for maintenance! We should be back online shortly!';
                 }
-                ?></h4>                
+                ?>
+                </h4>
                 <p class="contact">Contact: <a href="mailto:support@intranetproject.net">support@intranetproject.net</a></p>
-                <img src="https://i.imgur.com/WesZdDe.gif"></img>
+                <img src="https://i.imgur.com/WesZdDe.gif">
+            </div>
         </div>
     </main>
     <footer class="page-footer teal lighten-2">
@@ -47,6 +54,7 @@ session_start();
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Links</h5>
                     <ul>
+                        <li><a class="grey-text text-lighten-3" href="https://twitter.com/Intranetprojec">Twitter</a></li>
                         <li><a class="grey-text text-lighten-3" href="https://github.com/IntranetProject">GitHub</a></li>
                         <li><a class="grey-text text-lighten-3" href="https://intranetproject.net/imprint.html">Imprint</a></li>
                         <li>
@@ -58,7 +66,8 @@ session_start();
         </div>
         <div class="footer-copyright">
             <div class="container">
-                © 2017 Intranet Project
+                ©
+                <?php echo "2017-" . date('Y'); ?> Intranet Project
             </div>
         </div>
     </footer>
